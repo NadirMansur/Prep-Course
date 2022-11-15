@@ -1,0 +1,38 @@
+body {  
+    background-image: url("./ImagenesCv/HENRY.jpg");
+    background-position:top;
+    background-size:contain;
+    background-repeat:repeat-y;
+}
+h1{
+    text-align: center;
+}
+img.foto{
+        width: 60px;
+        height: 70px;
+     }
+h6{
+    color: darkgrey;
+}
+h3{
+  color: rgb(92, 92, 92);  
+}
+#titulo{
+    color: rgb(125, 125, 125);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+h4{
+    color: rgb(130, 130, 130);
+}
+#educacion{
+    border: rgb(60, 60, 60) 5px groove;
+}
+#explab{
+    border: rgb(60, 60, 60) 5px groove;
+}
+#skills{
+    border: rgb(60, 60, 60) 5px groove;
+}
+#hobbies{
+    border: rgb(60, 60, 60) 5px groove;
+}

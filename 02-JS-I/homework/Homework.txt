@@ -1,0 +1,34 @@
+Variables:
+    ¿Que son las Variables? Las Variables funcionan unidades de de almacenamiento. Esto quiere decir que pueden conter datos
+     o funciones.
+    Esxisten distintos tipos de variables para cada tipo de dato, esto le asigna propiedeades distintas a cada variable segun 
+    el tipo de dato que almacena.
+        Estan los tipos de dato entero, float (desimales), string (cadenas de texto), Boolean (verdadero o falso), y numeros 
+        negativos.
+    Las variables que contienen datos pueden mostrarse en pantalla, y trambien servir como argumento de una funcion.
+Strings:
+    Un String es un encadenamineo de caracteres, es decir una letra, una palabra, o un texto.
+Funciones (argumentos, return):
+    lo primero que debemos ver es que una funcion ejecuta una accion o mas acciones, un procesamineto. Dentro de ella sucede algo, 
+    para eso, la funcion cuenta con un nombre, argumentos, instrucciones y un return. Primero, que son los argumentos? pues son
+    datos externos a la funcion, que ella necesita para realizar sus instrucciones internas. Es decir, que si la funcion suma, 
+    necesita de los datos "numero" externos para poder sumarlos, ya que esta les asignara un lugar dentro de la funcion para ser
+    ejecutada alguna accion con ellos (en este caso sumar). Y aqui podemos dar respuesta a que es return. Si quisieramos almacenar
+    el resulado de esa suma, fuera de la funcion, podriamos decirle a la funcion que nos devuelva un valor, puede ser cualquier
+    valor interno de la funcion. Entonces si creamos una variable resultado, intrenamente en la funcion,  le asignamos a resultado
+    el valor de la suma de los argumentos, podriamos pedirle a la funcion que retorne el valor de resultado! Genial no?
+Declaraciones if:
+    Como ya entendimos que son las funciones podemos introducirnos en la funcion if(){}. La funcion if(){} es una herramienta que
+    nos permite ejecutar una serie de lineas de codigo si sus argumentos, la condicion de la funcion, es verdadera o falsa. 
+    Con esto queremos decir que debemos expresar en sus argumentos una condicion que pueda ser resuelta por operadores logicos.
+    ¿Que son los operadores logicos? pues son aquellos que pueden ser respondidos por verdadero y falso, true / false 
+    (tipo de dato booleano). Entonces, en una funcion If(){}else{}, si la condicion es verdadera se ejecutara el codigo entre las 
+    primeras llaves {}, sino, salteara ese codigo y ejecutara el codigo "else", contendio dentro de las segundas llaves {}, las 
+    llaves del else{}.
+    Entonces tenemos una funcion que como argumento toma una operacion logica, por ejempo a > b. "a" y "b" representan la altura 
+    de distintas tazas, y yo quiero que la funcion sirva el te en la taza mas alta, y agua en la taza mas baja. 
+    La funcion If(a > b){}else{}, primero comprobara si la taza "a" es mas alta, y luego ejecutara el codigo de las primeras 
+    llaves solo si esto es verdadero. De lo contrario "b" es mayor, y ejecutara el codigo comprendido en las seundas llaves {}.
+Valroes booleanos:
+    Como ya se explciado anteriormente, los valores booleanos son true y false, y representan verdadero y falso. Estos valores son
+    necesarios para ejecutar funciones condicionales. 

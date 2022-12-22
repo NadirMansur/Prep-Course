@@ -35,36 +35,36 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  suma = x + y;
-  return suma;
+  sumas = x + y;
+  return sumas;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  resta = x - y;
-  return resta;  
+  restas = x - y;
+  return restas;  
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  mult = x * y;
-  return mult;
+  mults = x * y;
+  return mults;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  divide = x / y;
-  return divide;
+  divides = x / y;
+  return divides;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(x == Y){
+  if(x == y){
     return true;
   }else{
     return false;
@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.length() == str2.length()){
+  if(str1.length == str2.length){
     return true;
   }else{
     return false;
@@ -107,7 +107,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  resto = x % y;
+  restos = x % y;
+  return restos;
 }
 
 function esPar(num) {
@@ -152,7 +153,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   num1 = num;
-  for(i = 0; i = exponent - 1; i++){
+  for(i = 0; i < exponent - 1; i++){
     num= num * num1;
   }
   return num;
@@ -184,10 +185,10 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero < 0){
-    console.log("Es positivo");  
-  }else if(numero > 0){
-    console.log("Es negativo");
+  if(numero > 0){
+    return "Es positivo";
+  }else if(numero < 0){
+    return "Es negativo";
   }else if (numero == 0){
     return false;
   }
@@ -214,7 +215,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  str2 = "Hola" + nombre + "!";
+  str2 = "Hola " + nombre + "!";
   return str2;
 }
 
@@ -247,8 +248,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  suma = euro * 0.2;
-  dolar = euro + suma;
+  sumas = euro * 0.2;
+  dolar = euro + sumas;
   return dolar;
 }
 
@@ -260,11 +261,11 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length < 1){
-    console.log("Dato incorrecto");
+    return string = "Dato incorrecto";
   }else if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
-    console.log("Es vocal");
+    return string = "Es vocal";
   }else{
-    console.log("Dato incorrecto");
+    return string = "Dato incorrecto";
   }
   
 }

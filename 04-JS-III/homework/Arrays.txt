@@ -1,0 +1,9 @@
+Arrays:
+Un Array, o un arreglo, funciona como una variable que puede almacera en su interior varios 
+tipos de datos, es decir que puede contener datos booleanos, enteros, cadenas y mas. Los mismos
+estan ordenados con un indice, con el cual podemos acceder a el cuando lo necesitemos.
+Un arreglo es util al momento de hacer una lista, y que la misma pueda ser recorrida para utilizar
+uno o varios de sus datos, indexados por un numero. El primer indice tiene por valor 0, y vaa en aumento 
+de uno en uno hasta llegar al ultimo valor de esta larga lista. Tambien cuenta con metodos propios que
+nos permiten manipularlo mas facilmente.
+Se dice por internet.. que existen arreloglos de objetos, pero de eso entenderemos mas tarde.

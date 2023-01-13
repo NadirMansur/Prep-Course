@@ -1,0 +1,20 @@
+Prototype:
+    El lenguaje JavaScript, es un lenguaje orientado a objetos. En el se introduce el
+    concepto de Class o clase. Estas clases funcionan como plantillas para la creacion
+    de objetos del tipo de la clase. Una importante carateristica de los objetos es
+    que pueden heredar atributos o metodos entre si, y para ellos se utu=iliza 
+    prototype. por ejemplo si tenemos una clase Animal y un Objeto Rana, podemos 
+    heredar caracteristicas de Animal, comunes para todos los animales, como por ejemplo
+    un booleano que indiquie si tiene pelaje o no. Utilizando los prototipos podemos 
+    heredar en el objeto Gato, caracteristicas y funciones comunes a todos los animales,
+    ademas que tendriamos funcniones unicas de un gato no heredadas por prototype.
+    Este concepto tambien se puede aplciar a una clase Felinos por ejemplo, y a diferentes
+    objetos Tigre, Gato, Leon. Todos ellos tiene caracteristicas y funcniones en comun
+    que son heredadas de Felinos.
+
+    Constructor:
+        El constructor es el METODO por el cual se inicializa un objeto. Esta funciona
+        recive los parametros mediante los cuales de definen los atriburos del objeto.
+        El metodo constructor se encuentra en la clase del objeto que deseamos inicializar,
+        habiendo solo un contructor por clase. Tambien se puede hacer llamado a la 
+        palabra clave super, para utilizar el constructor de la clase padre.

@@ -1,0 +1,21 @@
+Funciones CallBack:
+    Las funciones callback son funciones que se pasan como argumento de otra funcion. Para ser 
+    mas explicativos, es una palabra clave, mediante la cual podemos elejir que funcion deseamos pasar
+    como argumento a la funcion mayor. De esta manera la funcion mayor puede realizar diferentes 
+    acciones, dependiendo de la funcion callback que pasemos como argumento. Supongamos que tengo la 
+    funcion mayor calculadora(), que hace operaciones entre dos enteros y devuelve el resultado. 
+    A esta funcion pasamos como argumento una callback y dos numeros enteros. 
+    Dentro de ella llamamos a la funcion por el nombre clave callback y pasamos a esta funcion
+    callback dos argumentos(los dos numeros enteros que queremos operar). Que piensan que haria 
+    esta funcion? Eso depende de a que funcion hagamos refencia y pasemos como argumento al momento
+     de ejecutar la funcion mayor. Si en la ejecucion pasamos por argumento una funcion suma() 
+     (previamente definida) la funcion Calculadora() va a sumar, pero podemos cualquier cualquier funcion
+     para que sea llamada dentro de la funcion mayor.
+     Las callbacks son funcnioes de cierre, esto quiere decir que tiene acceso a la variables de 
+     la funcion mayoy y tambien a las variables globales.
+     Por ultimo, la imporancia de las callbacks esta en la capacidad de abstraccion al momento de programar.
+     Permitiendo simplificar el codigo, haciendo mas facil su mantenimiento, y efectuar un codigo con 
+     mayores capacidades creativas. 
+     Por ultimo no podre explicar su funcionalidad mejor que es el procesamiento asincronico, esto 
+     lo aprenderemos mas tarde. Solo enendi que cumplen un rol funcamental para procesamientos web,
+     y es mas efectivo su funcionamiento, que ciclos for lineales y sincronicos.

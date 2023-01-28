@@ -8,8 +8,17 @@ function deObjetoAmatriz(objeto){
       D: 1,
       B: 2,
       C: 3
-    }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
+    }) ➞                 [ ["D", 1], ["B", 2], ["C", 3] ]  */
   //Escribe tu código aquí
+  var array = [];
+
+    for (prop in objeto) {
+    if (objeto.hasOwnProperty(prop)) {
+    array.push([prop, objeto[prop]]);
+
+    }
+  }
+  return array;
 }
 
 
@@ -18,6 +27,16 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  // entonces recibe  un string y devuelve un objeto..
+  let obj = {};
+  for (i=0 ; i< string.length ; i++){ //recorro el bojeto
+    if (obj[string[i]]){ //existe la propiedad en el objeto
+      obj[string[i]]++; // aumento en 1 el valor de la propiedad del objeto
+    }else{
+      obj[string[i]] = 1; // de loc ontrario creo la propiedad del objeto y la
+    }                    //inicializo en 1
+  }
+  return obj;
 }
 
 
@@ -26,6 +45,20 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+    
+  stringMay = "";
+  stringMin = "";
+  for (i=0 ; i < s.length ; i++){ //recorro el string
+    if (s[i] === s[i].toUpperCase()){ //si encuentro una mayuscila la coloco un un nuevo string
+    stringMay = stringMay + s[i];
+     console.log(stringMay);
+    }else{ //si encuentro una minuscula la ordeno en un nuevo strin
+      stringMin = stringMin + s[i];
+      console.log(stringMin);
+    }
+  }//hasta con mi logica crep que separe "s" en dos strin "stringMay" y "stringMin"
+  s = stringMay + stringMin;
+  return s; 
 }
 
 
